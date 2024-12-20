@@ -8,6 +8,12 @@ export const examples: Registry = [
     files: ["example/magic-card-demo.tsx"],
   },
   {
+    name: "warp-animation-container-demo",
+    type: "registry:example",
+    registryDependencies: ["warp-animation-container"],
+    files: ["example/warp-animation-container-demo.tsx"],
+  },
+  {
     name: "morphing-text-demo",
     type: "registry:example",
     registryDependencies: ["morphing-text"],

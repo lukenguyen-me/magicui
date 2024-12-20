@@ -8,6 +8,12 @@ export const ui: Registry = [
     files: ["magicui/magic-card.tsx"],
   },
   {
+    name: "warp-animation-container",
+    type: "registry:ui",
+    dependencies: ["framer-motion"],
+    files: ["magicui/warp-animation-container.tsx"],
+  },
+  {
     name: "morphing-text",
     type: "registry:ui",
     dependencies: ["framer-motion"],
